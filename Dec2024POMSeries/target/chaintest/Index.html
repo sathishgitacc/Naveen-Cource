@@ -19,9 +19,9 @@
         <span class="ms-3 fs-6">Open Cart Test Automation</span>
       </div>
       <div>
-        <span class="badge badge-outline text-lg"><i class="bi bi-hourglass me-1"></i> 18s</span>
-        <span class="badge badge-outline text-lg"><i class="bi bi-clock me-1 text-success"></i> 2025-05-01 01:21:09 PM</span>
-        <span class="badge badge-outline text-lg me-3"><i class="bi bi-clock me-1 text-danger"></i> 2025-05-01 01:21:27 PM</span>
+        <span class="badge badge-outline text-lg"><i class="bi bi-hourglass me-1"></i> 7s</span>
+        <span class="badge badge-outline text-lg"><i class="bi bi-clock me-1 text-success"></i> 2025-05-17 09:49:11 AM</span>
+        <span class="badge badge-outline text-lg me-3"><i class="bi bi-clock me-1 text-danger"></i> 2025-05-17 09:49:19 AM</span>
           <button role="button" id="sys-info" class="btn btn-outline-primary smaller" title="View System Info">
             <i class="bi bi-pc-display-horizontal"></i></button>
         <button role="button" id="shortcuts" class="btn btn-outline-primary smaller" title="Shortcuts">
@@ -46,8 +46,8 @@
                 </div>
               </div>
               <div class="card-footer small">
-                <span id="sp1">0</span> Passed,
-                <span id="sf1">1</span> Failed,
+                <span id="sp1">1</span> Passed,
+                <span id="sf1">0</span> Failed,
                 <span id="ss1">0</span> Skipped
               </div>
             </div>
@@ -63,8 +63,8 @@
                 </div>
               </div>
               <div class="card-footer small">
-                <span id="sp2">0</span> Passed,
-                <span id="sf2">2</span> Failed,
+                <span id="sp2">2</span> Passed,
+                <span id="sf2">0</span> Failed,
                 <span id="ss2">0</span> Skipped
               </div>
             </div>
@@ -80,8 +80,8 @@
                   </div>
                 </div>
                 <div class="card-footer small">
-                  <span id="sp3">3</span> Passed,
-                  <span id="sf3">4</span> Failed,
+                  <span id="sp3">6</span> Passed,
+                  <span id="sf3">0</span> Failed,
                   <span id="ss3">0</span> Skipped
                 </div>
               </div>
@@ -108,225 +108,66 @@
         </div>
       </div>
     </div>
-      <div class="test-container failed">
+      <div class="test-container passed">
         <div class="container">
           <div class="row">
             <div class="col-4">
-              <h6 class="mb-3 testname fs-6 failed">Opencart App Test Regression Suite</h6>
+              <h6 class="mb-3 testname fs-6 passed">Opencart App Test Regression Suite</h6>
               <div class="small">
-                <span class="badge badge-outline"><i class="bi bi-hourglass me-1"></i> 16s</span>
+                <span class="badge badge-outline"><i class="bi bi-hourglass me-1"></i> 6s</span>
                 <span class="badge text-bg-info"><i class="bi bi-clock me-1"></i>
-                  2025-05-01 01:21:10 PM</span>
+                  2025-05-17 09:49:12 AM</span>
                 <span class="badge text-bg-warning"><i class="bi bi-clock me-1"></i>
-                  2025-05-01 01:21:26 PM</span>
+                  2025-05-17 09:49:18 AM</span>
               </div>
               
             </div>
             <div class="col-8">
-                <div class="card mb-3 result failed">
+                <div class="card mb-3 result passed">
                   <div class="card-body">
                     <div class="d-flex justify-content-between">
                       <div>
-                          <i class="bi bi-exclamation-octagon-fill text-danger"></i>
-                        <span class="fs-6 ms-2">com.qa.opencart.tests.AccountsPageTest</span>
-                      </div>
-                      <div>
-                        <span class="badge text-dark bg-light">6s</span>
-                      </div>
-                    </div>
-                    
-  <div class="mt-3 border-top">
-    <div class="leaf passed pb-1 ">
-      <div class="d-flex justify-content-between mt-3">
-        <div>
-            <i class="bi bi-check-circle-fill text-success"></i>
-          <span class="fs-6 ms-2">accPageHeadersTest </span>
-        </div>
-        <div>
-          <span class="badge text-dark bg-light">396ms</span>
-        </div>
-      </div>
-      <p class="desc"></p>
-    </div>
-    <div class="leaf failed pb-1 ">
-      <div class="d-flex justify-content-between mt-3">
-        <div>
-            <i class="bi bi-exclamation-octagon-fill text-danger"></i>
-          <span class="fs-6 ms-2">accPageTitleTest </span>
-        </div>
-        <div>
-          <span class="badge text-dark bg-light">5s</span>
-        </div>
-      </div>
-      <p class="desc"></p>
-        <pre class="py-2 mt-2 mb-4">java.lang.AssertionError: expected [My Account11] but found [null]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1413)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-	at org.testng.Assert.assertEquals(Assert.java:131)
-	at org.testng.Assert.assertEquals(Assert.java:655)
-	at org.testng.Assert.assertEquals(Assert.java:665)
-	at com.qa.opencart.tests.AccountsPageTest.accPageTitleTest(AccountsPageTest.java:41)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-	at org.testng.TestRunner.privateRun(TestRunner.java:829)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-</pre>
-        <div class="row mt-3">
-            <div class="embed col-2 mb-1">
-              <img src="resources/71e38c47-0bd7-49d2-bfea-182f8fd99ad4.png" />
-            </div>
-        </div>
-    </div>
-    <div class="leaf passed pb-1 ">
-      <div class="d-flex justify-content-between mt-3">
-        <div>
-            <i class="bi bi-check-circle-fill text-success"></i>
-          <span class="fs-6 ms-2">accPageURLTest </span>
-        </div>
-        <div>
-          <span class="badge text-dark bg-light">11ms</span>
-        </div>
-      </div>
-      <p class="desc"></p>
-    </div>
-  </div>
-
-                  </div>
-                </div>
-                <div class="card mb-3 result failed">
-                  <div class="card-body">
-                    <div class="d-flex justify-content-between">
-                      <div>
-                          <i class="bi bi-exclamation-octagon-fill text-danger"></i>
+                          <i class="bi bi-check-circle-fill text-success"></i>
                         <span class="fs-6 ms-2">com.qa.opencart.tests.LoginPageTest</span>
                       </div>
                       <div>
-                        <span class="badge text-dark bg-light">12s</span>
+                        <span class="badge text-dark bg-light">1s</span>
                       </div>
                     </div>
                     
   <div class="mt-3 border-top">
-    <div class="leaf failed pb-1 ">
+    <div class="leaf passed pb-1 logs-toggle">
       <div class="d-flex justify-content-between mt-3">
         <div>
-            <i class="bi bi-exclamation-octagon-fill text-danger"></i>
-          <span class="fs-6 ms-2">forgotPwdLinkExistTest </span>
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="fs-6 ms-2">forgotPwdLinkExistTest <i role="button" class="bi bi-caret-down-fill text-muted small"></i></span>
         </div>
         <div>
-          <span class="badge text-dark bg-light">637ms</span>
+          <span class="badge text-dark bg-light">144ms</span>
         </div>
       </div>
       <p class="desc">forgotPwdLinkExistTest</p>
-        <pre class="py-2 mt-2 mb-4">java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1413)
-	at org.testng.Assert.assertTrue(Assert.java:56)
-	at org.testng.Assert.assertTrue(Assert.java:66)
-	at com.qa.opencart.tests.LoginPageTest.forgotPwdLinkExistTest(LoginPageTest.java:49)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-	at org.testng.TestRunner.privateRun(TestRunner.java:829)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-</pre>
-        <div class="mt-3 logs ">
+        <div class="mt-3 logs d-none">
           <pre class="pb-0">
-locator : By.linkText: Forgotten Password11
+locator : By.linkText: Forgotten Password
           </pre>
         </div>
-        <div class="row mt-3">
-            <div class="embed col-2 mb-1">
-              <img src="resources/20be507f-cd7c-4c3d-9104-9e2f8cccb7fa.png" />
-            </div>
-        </div>
     </div>
-    <div class="leaf failed pb-1 ">
+    <div class="leaf passed pb-1 logs-toggle">
       <div class="d-flex justify-content-between mt-3">
         <div>
-            <i class="bi bi-exclamation-octagon-fill text-danger"></i>
-          <span class="fs-6 ms-2">loginPageTitleTest </span>
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="fs-6 ms-2">loginPageTitleTest <i role="button" class="bi bi-caret-down-fill text-muted small"></i></span>
         </div>
         <div>
-          <span class="badge text-dark bg-light">5s</span>
+          <span class="badge text-dark bg-light">55ms</span>
         </div>
       </div>
       <p class="desc">checking login title</p>
-        <pre class="py-2 mt-2 mb-4">java.lang.AssertionError: expected [Account Login11] but found [null]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1413)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-	at org.testng.Assert.assertEquals(Assert.java:131)
-	at org.testng.Assert.assertEquals(Assert.java:655)
-	at org.testng.Assert.assertEquals(Assert.java:665)
-	at com.qa.opencart.tests.LoginPageTest.loginPageTitleTest(LoginPageTest.java:32)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-	at org.testng.TestRunner.privateRun(TestRunner.java:829)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-</pre>
-        <div class="mt-3 logs ">
+        <div class="mt-3 logs d-none">
           <pre class="pb-0">
-checking login page title: null
+checking login page title: Account Login
           </pre>
-        </div>
-        <div class="row mt-3">
-            <div class="embed col-2 mb-1">
-              <img src="resources/a7fa2840-fbc4-4e77-8d71-b5f42f36bd84.png" />
-            </div>
         </div>
     </div>
     <div class="leaf passed pb-1 ">
@@ -336,65 +177,70 @@ checking login page title: null
           <span class="fs-6 ms-2">loginPageURLTest </span>
         </div>
         <div>
-          <span class="badge text-dark bg-light">18ms</span>
+          <span class="badge text-dark bg-light">33ms</span>
         </div>
       </div>
       <p class="desc">checking login page url</p>
     </div>
-    <div class="leaf failed pb-1 ">
+    <div class="leaf passed pb-1 logs-toggle">
       <div class="d-flex justify-content-between mt-3">
         <div>
-            <i class="bi bi-exclamation-octagon-fill text-danger"></i>
-          <span class="fs-6 ms-2">doLoginTest </span>
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="fs-6 ms-2">doLoginTest <i role="button" class="bi bi-caret-down-fill text-muted small"></i></span>
         </div>
         <div>
-          <span class="badge text-dark bg-light">5s</span>
+          <span class="badge text-dark bg-light">1s</span>
         </div>
       </div>
       <p class="desc">login with valid credentials</p>
-        <pre class="py-2 mt-2 mb-4">java.lang.AssertionError: expected [My Account11] but found [null]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1413)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-	at org.testng.Assert.assertEquals(Assert.java:131)
-	at org.testng.Assert.assertEquals(Assert.java:655)
-	at org.testng.Assert.assertEquals(Assert.java:665)
-	at com.qa.opencart.tests.LoginPageTest.doLoginTest(LoginPageTest.java:58)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-	at org.testng.TestRunner.privateRun(TestRunner.java:829)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:475)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-</pre>
-        <div class="mt-3 logs ">
+        <div class="mt-3 logs d-none">
           <pre class="pb-0">
 locator : By.id: input-password
 locator : By.id: input-password
 locator : By.xpath: //input[@value='Login']
           </pre>
         </div>
-        <div class="row mt-3">
-            <div class="embed col-2 mb-1">
-              <img src="resources/9e890d93-4048-490d-a2b5-c574e7dc4bfe.png" />
-            </div>
+    </div>
+  </div>
+
+                  </div>
+                </div>
+                <div class="card mb-3 result passed">
+                  <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                      <div>
+                          <i class="bi bi-check-circle-fill text-success"></i>
+                        <span class="fs-6 ms-2">com.qa.opencart.tests.AccountsPageTest</span>
+                      </div>
+                      <div>
+                        <span class="badge text-dark bg-light">1s</span>
+                      </div>
+                    </div>
+                    
+  <div class="mt-3 border-top">
+    <div class="leaf passed pb-1 ">
+      <div class="d-flex justify-content-between mt-3">
+        <div>
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="fs-6 ms-2">accPageTitleTest </span>
         </div>
+        <div>
+          <span class="badge text-dark bg-light">19ms</span>
+        </div>
+      </div>
+      <p class="desc"></p>
+    </div>
+    <div class="leaf passed pb-1 ">
+      <div class="d-flex justify-content-between mt-3">
+        <div>
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="fs-6 ms-2">accPageURLTest </span>
+        </div>
+        <div>
+          <span class="badge text-dark bg-light">18ms</span>
+        </div>
+      </div>
+      <p class="desc"></p>
     </div>
   </div>
 
@@ -408,22 +254,22 @@ locator : By.xpath: //input[@value='Login']
   </div>
 
   <script>
-    const stats1Annotation = {'total': 1, 'passed': 0};
+    const stats1Annotation = {'total': 1, 'passed': 1};
     const stats1 = [
-      { result: 'Passed', count: 0, bg: 'rgb(140, 197, 83)' },
-      { result: 'Failed', count: 1, bg: 'rgb(233,80,113)' },
+      { result: 'Passed', count: 1, bg: 'rgb(140, 197, 83)' },
+      { result: 'Failed', count: 0, bg: 'rgb(233,80,113)' },
       { result: 'Skipped', count: 0, bg: 'rgb(13, 202, 240)' }
     ];
-      const stats2Annotation = {'total': 2, 'passed': 0};
+      const stats2Annotation = {'total': 2, 'passed': 2};
       const stats2 = [
-        { result: 'Passed', count: 0, bg: 'rgb(140, 197, 83)' },
-        { result: 'Failed', count: 2, bg: 'rgb(233,80,113)' },
+        { result: 'Passed', count: 2, bg: 'rgb(140, 197, 83)' },
+        { result: 'Failed', count: 0, bg: 'rgb(233,80,113)' },
         { result: 'Skipped', count: 0, bg: 'rgb(13, 202, 240)' }
       ];
-      const stats3Annotation = {'total': 7, 'passed': 3};
+      const stats3Annotation = {'total': 6, 'passed': 6};
       const stats3 = [
-        { result: 'Passed', count: 3, bg: 'rgb(140, 197, 83)' },
-        { result: 'Failed', count: 4, bg: 'rgb(233,80,113)' },
+        { result: 'Passed', count: 6, bg: 'rgb(140, 197, 83)' },
+        { result: 'Failed', count: 0, bg: 'rgb(233,80,113)' },
         { result: 'Skipped', count: 0, bg: 'rgb(13, 202, 240)' }
       ];
      
@@ -504,12 +350,12 @@ locator : By.xpath: //input[@value='Login']
                   <td>Toggle skipped tests</td>
                 </tr>
                 <tr>
-                  <td>esc</td>
-                  <td>Reset all filters</td>
-                </tr>
-                <tr>
                   <td>L</td>
                   <td>Toggle theme (light/dark)</td>
+                </tr>
+                <tr>
+                  <td>esc</td>
+                  <td>Reset all filters</td>
                 </tr>
                 <tr>
                   <td>f</td>

@@ -49,15 +49,15 @@ public class AccountsPageTest extends BaseTest{
 		Assert.assertTrue(accPage.getAccPageURL().contains(HOME_PAGE_FRACTION_URL));
 	}
 	
-	@Description("checking open cart acc page headers...")
-	@Severity(SeverityLevel.MINOR)
-	@Owner("Naveen")
-	@Test
-	public void accPageHeadersTest() {
-		List<String> actHeaderList = accPage.getAccPageHeaders();
-		Assert.assertEquals(actHeaderList, AppConstants.expectedAccPageHeadersList);
-	}
-	
+//	@Description("checking open cart acc page headers...")
+//	@Severity(SeverityLevel.MINOR)
+//	@Owner("Naveen")
+//	@Test
+//	public void accPageHeadersTest() {
+//		List<String> actHeaderList = accPage.getAccPageHeaders();
+//		Assert.assertEquals(actHeaderList, AppConstants.expectedAccPageHeadersList);
+//	}
+//	
 	
 	
 

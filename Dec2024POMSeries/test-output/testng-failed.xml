@@ -10,28 +10,13 @@
     <classes>
       <class name="com.qa.opencart.tests.AccountsPageTest">
         <methods>
-          <include name="accPageTitleTest"/>
           <include name="accPageSetup"/>
           <include name="setup"/>
           <include name="attachScreenshot"/>
+          <include name="accPageHeadersTest"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.qa.opencart.tests.AccountsPageTest -->
     </classes>
   </test> <!-- Accounts Page Test_chrome(failed) -->
-  <test thread-count="3" parallel="tests" name="Login Page Test_chrome(failed)" verbose="4">
-    <parameter name="browser" value="chrome"/>
-    <classes>
-      <class name="com.qa.opencart.tests.LoginPageTest">
-        <methods>
-          <include name="forgotPwdLinkExistTest"/>
-          <include name="loginPageTitleTest"/>
-          <include name="setup"/>
-          <include name="attachScreenshot"/>
-          <include name="doLoginTest"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.qa.opencart.tests.LoginPageTest -->
-    </classes>
-  </test> <!-- Login Page Test_chrome(failed) -->
 </suite> <!-- Failed suite [Opencart App Test Regression Suite] -->
