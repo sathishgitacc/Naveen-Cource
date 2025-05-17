@@ -24,7 +24,7 @@ public class LoginPageTest extends BaseTest{
 	
 	@Description("checking open cart login page title...")
 	@Severity(SeverityLevel.MINOR)
-	@Owner("Naveen")
+	@Owner("Naveen K")
 	@Test(description = "checking login title")
 	public void loginPageTitleTest() {
 		String actTitle = loginPage.getLoginPageTitle();
